@@ -3,7 +3,7 @@ import { cardInfo } from '../config/config.js';
 
 function Card({ title, description, image })  { 
   return (
-    <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out w-80 overflow-hidden transform hover:-translate-y-2">
+    <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out w-80  transform hover:-translate-y-2">
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-6">
         <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
